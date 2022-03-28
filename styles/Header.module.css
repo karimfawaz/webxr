@@ -1,5 +1,6 @@
 .headerContainer {
     color: white;
+    overflow: hidden;
 }
 
 .logo {
