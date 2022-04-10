@@ -1,33 +1,38 @@
 .headerContainer {
     color: white;
     overflow: hidden;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo {
-    height: 20vw;
-    width: 20vw;
+    height: 15vw;
+    width: 15vw;
 }
 
 .logoName {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 
 .nameSvg {
-    width: 50vw;
-    height: 20vw;
+    width: 25vw;
+    height: 10vw;
 
 
 }
 
 .svgText {
     stroke: var(--primary-dark);
-    font-size: 150px;
-    font-weight: 700;
-    stroke-width: 2;
+    font-size: 6vw;
+    font-weight: bolder;
+    stroke-width: 0.075vw;
     animation: textAnimate 5s infinite alternate;
     fill: var(--primary-light);
 

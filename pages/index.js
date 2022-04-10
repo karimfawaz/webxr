@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin" />
 
 export default function Home() {
   return (
@@ -13,8 +13,16 @@ export default function Home() {
         {/* <meta name="description" content="3D NFT Gallery" /> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <table>
+        <tr>
+          <td rowSpan="2">
+            <Header />
+          </td>
+          
 
-     <Header/>
+        </tr>
+
+      </table>
     </div>
   )
 }
