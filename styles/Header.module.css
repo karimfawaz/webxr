@@ -32,9 +32,9 @@
     stroke: var(--primary-dark);
     font-size: 6vw;
     font-weight: bolder;
-    stroke-width: 0.075vw;
+    stroke-width: 3;
     animation: textAnimate 5s infinite alternate;
-    fill: var(--primary-light);
+    fill: white;
 
 }
 
