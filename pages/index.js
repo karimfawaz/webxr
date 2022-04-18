@@ -11,47 +11,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Thresh</title>
-        {/* <meta name="description" content="3D NFT Gallery" /> */}
+        <meta name="description" content="3D NFT Gallery" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <BackgroundParticles/>
-      <table>
-        <tr>
-          <td colSpan="2" rowSpan="2" >
-            <Header />
-          </td>
-          <td  >
-            <Header />
-          </td>
 
-        </tr>
-        <tr>
-          <td >
-            2nd
-          </td>
+      <BackgroundParticles />
 
-          <td >
-            2nd
-          </td>
-          
+      <Header />
 
-        </tr>
-        <tr>
-          <td >
-            3rd
-          </td>
-          
-
-        </tr>
-        <tr>
-          <td >
-            4th
-          </td>
-          
-
-        </tr>
-
-      </table>
     </div>
   )
 }
