@@ -1,0 +1,11 @@
+.roadmapDiv {
+    background-color: var(--secondary-light);
+    padding: 3vw;
+    transform: skewY(5deg);
+
+}
+
+.timeline{
+    transform: skewY(-5deg);
+
+}
