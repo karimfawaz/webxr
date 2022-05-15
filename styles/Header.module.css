@@ -34,7 +34,7 @@
     stroke: var(--primary-dark);
     font-size: 5.5vw;
     font-weight: bolder;
-    stroke-width: 3;
+    stroke-width: 0.75;
     animation: textAnimate 5s infinite alternate;
     fill: white;
 

@@ -1,0 +1,20 @@
+.container {
+    background-color: white;
+    height: 50vw;
+    padding-bottom: 16.35vw;
+    margin-bottom: -8.75vw;
+    transform: skewY(-5deg);
+
+    
+
+}
+
+
+.aboutSection{
+    padding-top: 7.5vw;
+    transform: skewY(5deg);
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 3vw;
+
+}

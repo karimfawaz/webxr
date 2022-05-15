@@ -7,99 +7,71 @@ const RoadMap = () => {
         <div className={styles.roadmapDiv}>
             <div className={styles.timeline}>
 
-            
-            <VerticalTimeline>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2011 - present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    // //icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="2010 - 2011"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    // //icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Art Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="2008 - 2010"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    // //icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                    <p>
-                        User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="2006 - 2008"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    // //icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                    <p>
-                        User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="April 2013"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    //icon={<SchoolIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                    <p>
-                        Strategy, Social Media
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="November 2012"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    //icon={<SchoolIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="2002 - 2006"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    //icon={<SchoolIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                    <p>
-                        Creative Direction, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                    //icon={<StarIcon />}
-                />
-            </VerticalTimeline>
+
+                <VerticalTimeline>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: 'green', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                        date="Q3 2022"
+                        iconStyle={{ background: 'green', color: '#fff' }}
+
+                    >
+                        <h3 className="vertical-timeline-element-title">Thresh Alpha</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Web App Release</h4>
+                        <p>
+                            Users will be able to use Thresh to showcase their owned NFTs by connecting their wallets.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="Q2 2023"
+                        iconStyle={{ background: 'yellow', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Thresh NFT.3D</h3>
+                        <h4 className="vertical-timeline-element-subtitle">3D Gallery Implementation</h4>
+                        <p>
+                            Users will be able to create a 3D gallery where they can showcase their NFT collection in the most customizable way.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="Q4 2023"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Thresh Auction House</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Marketplace Launch</h4>
+                        <p>
+                            Users will now be able to buy and sell NFTs directly on Thresh.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="Q1 2024"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Thr.esh</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Fractionalised NFT Transacting</h4>
+                        <p>
+                            Users will be able to buy, sell, and share NFTs to lower the barrier of entry and adding the community feel to the NFT business.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--education"
+                        date="Q4 2024"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Thresh Sigma</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Thresh Wallet Launch</h4>
+                        <p>
+                            Users will now be able to use the Thresh Ecosystem to its fullest by having an internal wallet, reducing transaction costs and speed.
+                        </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        iconStyle={{ background: 'black', color: '#fff' }}
+                    />
+                </VerticalTimeline>
             </div>
         </div>
 
