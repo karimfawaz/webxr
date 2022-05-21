@@ -1,4 +1,4 @@
-import Particles from "react-tsparticles"
+import Particles from "react-tsparticles";
 
 const BackgroundParticles = () => {
   return (
@@ -15,11 +15,9 @@ const BackgroundParticles = () => {
             resize: true,
           },
           modes: {
-
             push: {
               quantity: 2,
             },
-
           },
         },
         particles: {
@@ -53,16 +51,15 @@ const BackgroundParticles = () => {
           },
           shape: {
             type: "circle",
-
           },
           size: {
             random: true,
             value: 5,
           },
         },
+      }}
+    />
+  );
+};
 
-      }} />
-  )
-}
-
-export default BackgroundParticles
+export default BackgroundParticles;
